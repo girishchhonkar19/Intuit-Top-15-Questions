@@ -32,10 +32,8 @@ class Solution
 	    {
 	        if(visited[i]==false)
 	        {
-	            
-	            DFS(adj,i,visited);
-	            
 	            store = i;
+	            DFS(adj,i,visited);
 	        }
 	    }
 	    
