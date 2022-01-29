@@ -25,8 +25,8 @@ public:
    
 	int possible_paths(vector<vector<int>>edges, int n, int s, int d){
 	    
-	    vector<int>adj[16];
-	    bool visited[16]={false};
+	    vector<int>adj[n];
+	    bool visited[n]={false};
 	    
 	    for(auto i:edges)
 	    {
